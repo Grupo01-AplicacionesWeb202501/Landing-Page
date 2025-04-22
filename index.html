@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Eduflow - Sistema de Matrícula Inteligente</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+</head>
+<body>
+  
+  <header>
+    <h1>Eduflow</h1>
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    <nav>
+      <ul class="nav-links">
+        <li class="nav-a"><a href="#about">Sobre nosotros</a></li>
+        <li class="nav-a"><a href="#feature">Características</a></li>
+        <li class="nav-a"><a href="#pay">Precios</a></li>
+        <li class="nav-a"><a href="#contacto">Contacto</a></li>
+        <li><a href="#contacto"><button id="register-btn">Regístrate</button></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Transforma tu proceso de matrícula con Eduflow</h2>
+    <p>Una plataforma moderna y eficiente para gestionar alumnos en colegios y universidades, validando
+    documentos, generando reportes y registrando fácilmente nuevos alumnos.</p>
+    <button class="btn-primary">Comienza ahora</button>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-content about-text">
+      <h2>¿Qué es Eduflow?</h2>
+      <p>
+        En <strong>Eduflow</strong>, creemos que la educación merece herramientas modernas y eficientes. 
+        Nuestra misión es simplificar y optimizar la administración académica para colegios y universidades, 
+        brindando una experiencia rápida, segura y confiable tanto para las instituciones como para sus estudiantes.
+      </p>
+      <p>
+        Combinamos tecnología intuitiva con funcionalidades clave para garantizar una gestión académica 
+        eficiente, desde la inscripción hasta el control financiero. Nuestro sistema permite automatizar procesos, 
+        reducir errores y ahorrar tiempo en tareas administrativas, permitiendo a los equipos centrarse en 
+        lo más importante: la calidad educativa.
+      </p>
+    </div>
+    <div class="about-content about-image">
+      <img src="img/about-img.jpg" alt="Imagen Sobre Nosotros">
+    </div>
+    <div class="about-content about-image">
+      <img src="img/about-img2.jpg" alt="Imagen Sobre Nosotros">
+    </div>
+    <div class="about-content about-text">
+      <h2>¿Por qué elegir Eduflow?</h2>
+      <p>
+        Con un enfoque centrado en el usuario, nuestra plataforma es fácil de usar y se adapta a las
+        necesidades de cada institución. Desde la gestión de alumnos hasta la generación de reportes,
+        Eduflow es la solución integral para una administración educativa eficiente.
+      </p>
+      <p>
+        Únete a nosotros y transforma tu proceso de matrícula con Eduflow. ¡Estamos aquí para ayudarte a
+        crecer!
+      </p>
+    </div>
+  </section>
+  
+  <h2>Características</h2> 
+  <main id="feature" class="features">
+    <div class="feature">
+      <img src="img/feature1.png" alt="Registro de alumnos">
+      <h3>Registro de alumnos</h3>
+      <p>Gestiona fácilmente alumnos nuevos y antiguos con formularios intuitivos y un registro sencillo.</p>
+    </div>
+    <div class="feature">
+      <img src="img/feature2.png" alt="Gestion de cursos">
+      <h3>Gestión de cursos</h3>
+      <p>Organiza módulos, ciclos y horarios con flexibilidad y control total.</p>
+    </div>
+    <div class="feature">
+      <img src="img/feature3.png" alt="Asignación de vacantes">
+      <h3>Asignación de vacantes</h3>
+      <p>Distribución inteligente de vacantes según disponibilidad y prioridad.</p>
+    </div>
+    <div class="feature">
+      <img src="img/feature4.png" alt="Generación de reportes">
+      <h3>Generación de reportes</h3>
+      <p>Exporta información detallada en formatos PDF o Excel por curso, grado o ciclo.</p>
+    </div>
+    <div class="feature">
+      <img src="img/feature5.png" alt="Validacion de documentos">
+      <h3>Validación de documentos</h3>
+      <p>Verifica automáticamente documentos como DNI, certificados y otros.</p>
+    </div>
+    <div class="feature">
+      <img src="img/feature6.png" alt="Notificación de matrícula">
+      <h3>Notificación de matrícula</h3>
+      <p>Confirma matrículas al instante con notificaciones vía email o SMS.</p>
+    </div>
+    <div class="feature">
+      <img src="img/feature7.png" alt="Control de pagos">
+      <h3>Control de pagos</h3>
+      <p>Registra pagos, emite facturas y lleva un seguimiento financiero preciso.</p>
+    </div>
+    <div class="feature">
+      <img src="img/feature8.png" alt="Interfaz intuitiva">
+      <h3>Interfaz intuitiva</h3>
+      <p>Diseño amigable y fácil de usar para una experiencia fluida.</p>
+    </div>
+  </main>
+
+  <!--PAGOS-->
+  <h2>Precios</h2>
+  <section id="pay" class="method-pay">
+    <div class="plan">
+      <div class="inner">
+        <span class="pricing">
+          <span> $1000 - $6000 <small></small></span>
+        </span>
+        <p class="title">Licencia de instalación única</p>
+        <p class="info">Plan para una sola compra que contiene todas las funciones.</p>
+        <ul class="features">
+          <li>
+            <span class="icon">
+              <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+              </svg>
+            </span>
+            <span><strong>Todas las</strong> características</span>
+          </li>
+          <li>
+            <span class="icon">
+              <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+              </svg>
+            </span>
+            <span>Actualizaciones <strong>gratuitas</strong></span>
+          </li>
+          <li>
+            <span class="icon">
+              <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+              </svg>
+            </span>
+            <span>Soporte técnico <strong>1 año</strong></span>
+          </li>
+        </ul>
+        <div class="action">
+        <a class="button" href="#"> Elegir plan </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="plan">
+      <div class="inner">
+        <span class="pricing">
+          <span>
+            $300 - $1000 <small>/ m</small>
+          </span>
+        </span>
+        <p class="title">Suscripción mensual/anual (SaaS)</p>
+        <p class="info">Suscripción mensual usando el servidor de Eduflow.</p>
+        <ul class="features">
+          <li>
+            <span class="icon">
+              <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+              </svg>
+            </span>
+            <span><strong>Todas las </strong> características </span>
+          </li>
+          <li>
+            <span class="icon">
+              <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+              </svg>
+            </span>
+            <span> Servidor de <strong>Eduflow</strong></span>
+          </li>
+          <li>
+            <span class="icon">
+              <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+              </svg>
+            </span>
+            <span>Soporte técnico <strong>1 año</strong></span>
+          </li>
+        </ul>
+        <div class="action">
+        <a class="button" href="#"> Elegir Plan </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="plan">
+      <div class="inner">
+        <span class="pricing">
+          <span>
+            $500 - $1000 <small>- $100 / m</small>
+          </span>
+        </span>
+        <p class="title">Modelo Híbrido</p>
+        <p class="info">Precio de instalación inicial más cuota mensual baja.</p>
+        <ul class="features">
+          <li>
+            <span class="icon">
+              <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+              </svg>
+            </span>
+            <span><strong>Todas las </strong>características.</span>
+          </li>
+          <li>
+            <span class="icon">
+              <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+              </svg>
+            </span>
+            <span>Servidor de <strong>Eduflow</strong></span>
+          </li>
+          <li>
+            <span class="icon">
+              <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+              </svg>
+            </span>
+            <span>Mantenimiento y soporte <strong>ilimitado</strong></span>
+          </li>
+        </ul>
+        <div class="action">
+        <a class="button" href="#"> Elegir plan </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="plan">
+      <div class="inner">
+        <span class="pricing">
+          <span> Variable </span>
+        </span>
+        <p class="title">Addons</p>
+        <p class="info">Complementos, extras y personalización para la aplicación web.</p>
+        <ul class="features">
+          <li>
+            <span class="icon">
+              <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+              </svg>
+            </span>
+            <span><strong>Personalización</strong> de interfaces</span>
+          </li>
+          <li>
+            <span class="icon">
+              <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+              </svg>
+            </span>
+            <span>Capacitación <strong>de personal</strong></span>
+          </li>
+          <li>
+            <span class="icon">
+              <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path fill="currentColor" d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"></path>
+              </svg>
+            </span>
+            <span>Soporte <strong>premium</strong></span>
+          </li>
+        </ul>
+        <div class="action">
+        <a class="button" href="#"> Consultar precios</a>
+        </div>
+      </div>
+    </div>
+  </section>
+      
+  <section id="contacto" class="wrapper">
+    <div>
+      <h2>Contáctanos</h2>
+    </div>
+    <form class="form">
+      <input type="text" required class="name entry " placeholder="Your Name"/>
+      <input type="email" required class="email entry" placeholder="Email"/> 
+      <textarea class="message entry" required placeholder="Message"></textarea> 
+      <button id="submit" class="submit entry">Submit</button>
+    </form>  
+    <div class="shadow"></div>
+  </section>
+
+<!-- Footer -->
+  <section class="footer-basic">
+    <footer>
+      <div class="social">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#">Home</a></li>
+        <li class="list-inline-item"><a href="#pay">Services</a></li>
+        <li class="list-inline-item"><a href="#about">About</a></li>
+        <li class="list-inline-item"><a href="#">Terms</a></li>
+        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+      </ul>
+      <p class="copyright">Eduflow © 2025</p>
+    </footer>
+  </section>
+
+
+  <script>
+    document.getElementById("submit").addEventListener("click", function() {
+      event.preventDefault();
+      let name = document.querySelector(".name").value;
+      let email = document.querySelector(".email").value;
+      let message = document.querySelector(".message").value;
+
+      if (name === "" || email === "" || message === "") {
+        Swal.fire({
+          title: 'Error',
+          text: 'Por favor completa todos los campos.',
+          icon: 'error',
+          confirmButtonText: 'Cerrar'
+        });
+      } else {
+        Swal.fire({
+          title: 'Éxito',
+          text: 'Tu mensaje ha sido enviado.',
+          icon: 'success',
+          confirmButtonText: 'Cerrar'
+        }).then  (() => {
+          window.location.reload(); // Recargar la página después de enviar el formulario
+        });} 
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
